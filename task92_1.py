@@ -9,8 +9,8 @@ for c in s:
         s1+="Б"
     elif c=="Б":
         s1+="А" 
-    elif c=="C":
+    elif c=="С":
         s1+="с"
     else:
-        s1+="с" 
+        s1+="С" 
 print (s1)    
