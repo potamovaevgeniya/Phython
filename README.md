@@ -1,4 +1,4 @@
-# Pyton репозиторий для обучения
+№Python репозиторий для обучения
 
-main.ru
+main.py
 taskxxx.py
