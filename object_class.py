@@ -1,15 +1,16 @@
 class Person():
-        def __init__(self,name="",money=0):
+        def __init__(self,name="",summ=0):
          self.name=name    
-         self.money=money
+         self.summ=summ
          print("Создан пользователь ",self.__str__())
         def __str__(self):
-          return self.name + " имеет " + str(self.money) + " рублей"
+          return self.name + " имеет " + str(self.summ) + " рублей"
 
 person1=Person()
 person1.name="Саша"
-person1.money=700
+person1.summ=700
 
 person2=Person("Вася",900)
-person2.money=500
+
+
 
